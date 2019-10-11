@@ -1,0 +1,29 @@
+<%-include("partials/header"); -%>
+<div class="text-center">
+
+
+<form id="giris-yap-sayfası" action="/giris-yap" method="post" class="form-signin">
+  <img class="mb-4" src="images/logo_2.png" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Lütfen Giriş Yapın</h1>
+  <label for="inputEmail" class="sr-only">E-mail adresi</label>
+  <input type="email" id="inputEmail" class="form-control" placeholder="e-mail adresiniz" required autofocus>
+  <label for="inputPassword" class="sr-only">Şifre</label>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Şifreniz" required>
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="btn btn-lg btn-dark btn-block" type="submit">Giriş Yap</button>
+  <div class="giris-yap-alt">
+    <a href="/uye-ol">Üye Ol</a>
+    <br>
+    <a href="/sifremi-unuttum">Şifremi Unuttum</a>
+  </div>
+
+
+
+
+</form>
+</div>
+<%-include("partials/footer"); -%>

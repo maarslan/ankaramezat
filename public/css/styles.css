@@ -1,0 +1,149 @@
+.nav-style{
+  margin-bottom: 0!important;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.logo-img{
+  max-width: 100%;
+  height:10rem;
+
+  padding-bottom: 0;
+}
+.brand{
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+a{
+  color:	#282044;
+}
+a:hover{
+  color:#8d5c83;
+}
+#footer-text{
+  color:white;
+}
+#footer-text a{
+  color:white;
+}
+#footer-text h6{
+  color:green;
+}
+
+#main{
+  padding: 0;
+  background: #f0eeef;
+  margin-top: 0;
+}
+#body{
+  background-color:  #b2aea5;
+}
+#giris-yap-sayfası{
+  margin:10% 40%;
+
+}
+.giris-yap-alt{
+  padding-top: 5%;
+}
+.form-signin *{
+  padding-top: 1%;
+
+
+}
+.kaydet-butonu{
+  margin-top: 3%;
+}
+.form-signin.label{
+  font-weight: bold;
+}
+.router{
+
+  background: #f6fef9;
+  font-size: auto;
+  font-weight: bold;
+  margin-top: 0.1rem;
+}
+.duyurular-slide{
+  text-align: center;
+
+}
+.carousel-text{
+  padding-bottom: 1.5rem;
+}
+#kondusyon{
+  padding:3% 5%;
+
+}
+#kondusyon hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid white;
+}
+#kondusyon h3{
+    color:#f7347a;
+}
+#baslık{
+  text-align: center;
+  color: red;
+  margin: 2% 30%;
+  font-weight: bold;
+}
+.world-table{
+  overflow-x:auto;
+  max-width: 100%;
+  margin:8% 8%;
+}
+.world-table h5{
+  color: #f7347a;
+  padding: 2% 2%;
+}
+.world-paper{
+  text-align: center;
+  color: red;
+  margin: 2% 30%;
+  font-weight: bold;
+}
+.kanun h3{
+  text-align: center;
+  color: red;
+  margin: 2% 20%;
+  font-weight: bold;
+}
+.maddeler{
+  padding:2% 8%;
+}
+.hakkımızda{
+  text-align: center;
+  padding: 3%;
+}
+.kullanici-formu{
+  margin: 5% 5%;
+  padding-top: 1.5%;
+}
+.kullanici-formu h2{
+  text-align: left;
+  padding: 2% 2%;
+}
+.kaydet-butonu{
+  margin: 5% 40%;
+}
+#slide{
+  color:green;
+}
+.head-images{
+  height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+}
